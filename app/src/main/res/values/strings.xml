@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">Spectrum Radar</string>
+    <string name="str_configure">Configure</string>
+    <string name="str_calculate">Calculate</string>
+    <string name="x10">x10</string>
+    <string name="str_wavelength">Wavelength</string>
+    <string name="str_frequency">Frequency</string>
+    <string name="str_wavenumber">Wavenumber</string>
+    <string name="str_showFullSpectrum">Show Full Spectrum</string>
+    <string name="str_defineVelocity">Define Velocity</string>
+    <string name="str_selectFrequentUnits">Select Frequent Units</string>
+    <string name="str_save">Save</string>
+    <string name="str_wavelengthDescription">Insert the <b>frequency</b> to calculate the wavelength:</string>
+    <string name="str_speedOfLight">Speed of Light</string>
+    <string name="str_currentVelocity"><![CDATA[The current selected value for velocity (v) is %1$sx10<sup><small>%2$s</small></sup> %3$s]]></string>
+    <string name="str_wavenumberDescription">Insert the <b>wavelength</b> to calculate the wavenumber:</string>
+    <string name="str_frequencyDescription">Insert the <b>wavelength</b> to calculate the frequency:</string>
+    <string name="str_mainInstructions">Select the convertion to be used</string>
+    <string name="str_maxThree">A maximum number of three units can be selected</string>
+    <string name="str_spectrum_gammaRay">Gamma-Rays</string>
+    <string name="str_spectrum_xRays">X-Rays</string>
+    <string name="str_spectrum_Ultraviolet">Ultraviolet</string>
+    <string name="str_spectrum_visible">Visible</string>
+    <string name="str_spectrum_infrared">Infra-red</string>
+    <string name="str_spectrum_microwaves">Microwaves</string>
+    <string name="str_spectrum_radio">Radio</string>
+    <string name="str_subSpectrum_extreme">Extreme</string>
+    <string name="str_subSpectrum_near">Near</string>
+    <string name="str_subSpectrum_medium">Medium</string>
+    <string name="str_subSpectrum_far">Far</string>
+    <string name="str_subSpectrum_red">Red</string>
+    <string name="str_subSpectrum_orange">Orange</string>
+    <string name="str_subSpectrum_yellow">Yellow</string>
+    <string name="str_subSpectrum_green">Green</string>
+    <string name="str_subSpectrum_cyan">Cyan</string>
+    <string name="str_subSpectrum_blue">Blue</string>
+    <string name="str_subSpectrum_violet">Violet</string>
+    <string name="str_subSpectrum_ultraHighFrequency">Ultra High Frequency</string>
+    <string name="str_subSpectrum_veryHighFrequency">Very High Frequency</string>
+    <string name="str_subSpectrum_shortWave">Short Wave</string>
+    <string name="str_subSpectrum_mediumWave">Medium Wave</string>
+    <string name="str_subSpectrum_longWave">Long Wave</string>
+    <string name="str_subSpectrum_veryLowFrequency">Very Low Frequency</string>
+    <string name="str_velocityInstructions">Define the velocity to be used:</string>
+    <string name="str_valueWithUnit" translatable="false"><![CDATA[%1$sx10<sup><small>%2$s</small></sup> %3$s]]></string>
+    <string name="str_references"><![CDATA[wavelength [ λ ]<br/>frequency [ f ]<br/>wavenumber [ ṽ ]]]></string>
+    <string name="str_insertedValue">Inserted value:</string>
+    <string name="str_valueWithoutExp" translatable="false"><![CDATA[%1$s %2$s]]></string>
+    <string name="str_valueMinusOne" translatable="false"><![CDATA[<sup><small>-1<small></sup>]]></string>
+    <string name="str_currentSpeedLight">The current selected velocity value is the speed of light</string>
+</resources>

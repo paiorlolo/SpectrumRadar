@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/str_mainInstructions" />
+
+    <Button
+        android:id="@+id/btn_wavelength"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str_wavelength"
+        android:drawableLeft="@mipmap/ic_frequency"
+        android:drawableRight="@mipmap/ic_wavelength"
+        android:gravity="top|center"
+        android:text="⟹"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="λ = v / f"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_frequency"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str_frequency"
+        android:drawableLeft="@mipmap/ic_wavelength"
+        android:drawableRight="@mipmap/ic_frequency"
+        android:gravity="top|center"
+        android:text="⟹"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="f = v / λ"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_wavenumber"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str_wavenumber"
+        android:drawableLeft="@mipmap/ic_wavelength"
+        android:drawableRight="@mipmap/ic_wavenumber"
+        android:gravity="top|center"
+        android:text="⟹"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="ṽ = 1 / λ"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_unitsReference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/str_references"
+        android:textAlignment="textEnd"
+        android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_currentVelocity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            tools:text="@string/str_currentVelocity" android:elevation="8dp"/>
+</LinearLayout>
